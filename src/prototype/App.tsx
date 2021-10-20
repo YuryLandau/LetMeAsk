@@ -1,9 +1,12 @@
-import {Button} from './prototype/Button'
+import { Button } from './Button'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+
+      <Button text="Olá" />
+      <Button />
+      <Button />
       <Button />
     </div>
   );
